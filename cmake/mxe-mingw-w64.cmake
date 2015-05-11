@@ -1,3 +1,8 @@
+# Only used for toolchain when specified explicitly.
+# From repository root directory:
+# mkdir build && cd build
+# cmake -DCMAKE_TOOLCHAIN_FILE=$(pwd)/../cmake/mxe-mingw-w64.cmake -DCMAKE_PREFIX_PATH=/opt/mxe/usr/i686-w64-mingw32.shared/qt5 ..
+
 SET(CMAKE_SYSTEM_NAME Windows)
 SET(CMAKE_SYSTEM_VERSION 1)
 
